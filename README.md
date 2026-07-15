@@ -1,39 +1,55 @@
-# Chirpy Starter
+# Cloudy with a Chance of Errors
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+Personal blog at **https://reb-b.github.io** — mixing cognitive neuroscience, cloud computing, AI, and personal experience.
 
-A minimal, ready-to-use template for creating a blog with the [**Chirpy**][chirpy] Jekyll theme. Get up and running in minutes with all critical files pre-configured.
+Built with [Jekyll](https://jekyllrb.com/) + [Chirpy theme](https://github.com/cotes2020/jekyll-theme-chirpy). Deployed automatically via GitHub Actions on every push to `main`.
 
-## Why This Starter Exists
+---
 
-When installing Chirpy through [RubyGems.org][gem], Jekyll can only read a subset of theme files (`_data`, `_layouts`, `_includes`, `_sass`, `assets`) and limited `_config.yml` options from the gem. As a result, users cannot enjoy the full out-of-the-box experience that Chirpy offers.
+## Writing a post
 
-To unlock all features, the following files must be present in your Jekyll site:
+Create a file in `_posts/` named `YYYY-MM-DD-your-title.md`:
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
+```markdown
+---
+title: "Your Post Title"
+date: 2026-07-14 10:00:00 +0200
+categories: [neuroscience]
+tags: [tag1, tag2]
+---
+
+Your content here in Markdown.
 ```
 
-This starter bundles those files from the latest **Chirpy** release along with a [CD][CD] workflow, so you can start writing immediately.
+Push to `main` → live in ~2 minutes.
 
-## Usage
+---
 
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
+## Local preview
 
-## Contributing
+Requires Ruby 3.1+. If your system Ruby is older, install a newer one first:
 
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
+```bash
+brew install ruby
+```
 
-## License
+Then add it to your PATH (Homebrew prints the exact lines after install). Then:
 
-This work is published under [MIT][mit] License.
+```bash
+gem install bundler
+bundle install
+bundle exec jekyll serve
+```
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+Open **http://localhost:4000** — live-reloads as you edit.
+
+---
+
+## Customising the blog
+
+All settings are in `_config.yml`. Fields left blank to fill in later:
+- `twitter.username`
+- `social.email`
+- `social.fediverse_handle`
+- `social.links` — LinkedIn, etc.
+- `avatar` — path or URL to a profile photo

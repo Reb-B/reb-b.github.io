@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b1f2e"/>
+      <stop offset="100%" stop-color="#2a2f45"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- scattered stars -->
+  <g fill="#ffffff" opacity="0.5">
+    <circle cx="120" cy="90" r="2"/>
+    <circle cx="220" cy="180" r="1.5"/>
+    <circle cx="980" cy="120" r="2"/>
+    <circle cx="1080" cy="220" r="1.5"/>
+    <circle cx="150" cy="480" r="1.5"/>
+    <circle cx="1050" cy="500" r="2"/>
+    <circle cx="600" cy="80" r="1.5"/>
+    <circle cx="900" cy="430" r="1.5"/>
+    <circle cx="300" cy="380" r="1.5"/>
+  </g>
+
+  <!-- cloud -->
+  <g transform="translate(430,220)">
+    <path d="M60 140
+             a55 55 0 0 1 0 -110
+             a45 45 0 0 1 85 -18
+             a50 50 0 0 1 75 48
+             a48 48 0 0 1 -10 80
+             z"
+          fill="#e8eaf2" opacity="0.95"/>
+  </g>
+
+  <!-- glitch / error bolt accent -->
+  <g transform="translate(560,255)">
+    <path d="M40 0 L10 55 L35 55 L0 120 L60 45 L35 45 Z"
+          fill="#f2b84b"/>
+  </g>
+</svg>
