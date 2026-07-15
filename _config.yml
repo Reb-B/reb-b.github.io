@@ -16,10 +16,10 @@ timezone: Europe/Berlin
 
 title: "Cloudy with a Chance of Errors" # the main title
 
-tagline: "neuroscience · cloud · AI · life" # it will display as the subtitle
+tagline: "Neuroscience | Cloud | AI" # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A blog mixing cognitive neuroscience, cloud computing, AI, and personal experience.
+  A blog mixing cognitive neuroscience, cloud computing (AWS) and AI.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -32,14 +32,14 @@ twitter:
   username: # add your Twitter/X username if you have one
 
 social:
-  name: Rebecca
+  name: Becky
   email: # add your email if you want it shown
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
     # The first element serves as the copyright owner's link
     - https://github.com/Reb-B
     # Uncomment below to add more social links
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/rebburnside/
 
 # Site Verification Settings
 webmaster_verifications:
@@ -56,7 +56,7 @@ webmaster_verifications:
 # Web Analytics Settings
 analytics:
   google:
-    id: # fill in your Google Analytics ID
+    id: G-SRCTW3R29V # fill in your Google Analytics ID
   goatcounter:
     id: # fill in your GoatCounter ID
   umami:
@@ -95,7 +95,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/img/avatar.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
