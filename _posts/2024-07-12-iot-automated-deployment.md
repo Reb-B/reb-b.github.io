@@ -4,7 +4,7 @@ date: 2024-07-12 00:00:00 +0200
 image: /assets/img/posts/iot-automated-deployment/pipeline.png
 description: |
   We offer practical insights and guidance to deploy software to multiple IoT devices at once. With the IoT services offered by AWS, you can scale up your IoT projects and get them to market faster.
-categories: [DevOps & IaC]
+categories: [IoT]
 tags: [aws, iot, greengrass, github-actions, ci-cd]
 ---
 

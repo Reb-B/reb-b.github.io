@@ -4,7 +4,7 @@ date: 2022-01-18 00:00:00 +0200
 image: /assets/img/posts/placeholder.svg
 description: |
     Ein Interview mit Junior Cloud Consultant Rebecca Burnside.
-categories: [DevOps & IaC]
+categories: [Career]
 tags: [career, cloud-consulting, interview, aws, career-change]
 ---
 

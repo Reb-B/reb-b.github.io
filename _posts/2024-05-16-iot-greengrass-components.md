@@ -4,7 +4,7 @@ date: 2024-05-16 00:00:00 +0200
 image: /assets/img/posts/iot-greengrass-components/iot-greengrass-components.png
 description: |
   Here are some practical insights and guidance to build software with AWS Greengrass Components and the Greengrass Development Kit. With the IoT building blocks offered by the AWS Greengrass service, you can scale up your IoT projects and get them to market faster.
-categories: [Platform Engineering]
+categories: [IoT]
 tags: [aws, iot, greengrass, gdk, platform-engineering]
 ---
 

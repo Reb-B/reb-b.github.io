@@ -4,7 +4,7 @@ date: 2023-09-03 00:00:00 +0200
 image: /assets/img/posts/exploring-aws-opensearch/magnifying-glass.png
 description: |
   Cloud powered search is a powerful tool for many businesses. In this article we explore the features of AWS OpenSearch and how it can be leveraged to build search and analytics solutions.
-categories: [AI & ML]
+categories: [Data]
 tags: [aws, opensearch, search, elasticsearch, serverless]
 ---
 

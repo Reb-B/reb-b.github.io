@@ -4,7 +4,7 @@ date: 2022-12-22 00:00:00 +0200
 image: /assets/img/posts/placeholder.svg
 description: |
   Monitoring and reducing your cloud costs doesn't have to be complex. With a few tips and tricks you can get your team(s) insight into their spending and set up good practices that ensure your cloud spend is kept under control.
-categories: [AI & ML]
+categories: [FinOps]
 tags: [aws, cost-optimization, cloud, finops, aws-budgets]
 ---
 

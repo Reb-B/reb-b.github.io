@@ -4,7 +4,7 @@ date: 2024-04-05 00:00:00 +0200
 image: /assets/img/posts/iot-fleet-provisioning/iot-things.png
 description: |
   We offer practical insights and guidance to provision software to multiple IoT devices at once. With the IoT services offered by AWS, you can scale up your IoT projects and get them to market faster.
-categories: [DevOps & IaC]
+categories: [IoT]
 tags: [aws, iot, greengrass, fleet-provisioning, cdk]
 ---
 
