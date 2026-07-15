@@ -4,7 +4,7 @@ date: 2025-10-10 00:00:00 +0200
 image: /assets/img/posts/placeholder.svg
 description: |
     Generative BI features in AWS Quicksight allow users to interact with their data using natural language queries and AI-generated visualizations via Amazon Q. In this post, we look at Quicksight Topics, which are the foundation of generative BI features in Quicksight. We will also provide a step-by-step guide on how to create and use Quicksight Topics to enhance your data analysis and reporting capabilities.
-categories: [Data, AI & ML]
+categories: [AI & ML]
 tags: [aws, quicksight, generative-ai, business-intelligence, data-analysis]
 ---
 
